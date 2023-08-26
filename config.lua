@@ -8,87 +8,87 @@ Config.Fliptime = 15000
 Config.MenuItems = {
     [1] = {
         id = 'citizen',
-        title = 'Citizen',
+        title = '市民',
         icon = 'user',
         items = {
             {
                 id = 'givenum',
-                title = 'Give Contact Details',
+                title = '連絡先を伝える',
                 icon = 'address-book',
                 type = 'client',
                 event = 'qb-phone:client:GiveContactDetails',
                 shouldClose = true
             }, {
                 id = 'getintrunk',
-                title = 'Get In Trunk',
+                title = '車庫に入れる',
                 icon = 'car',
                 type = 'client',
                 event = 'qb-trunk:client:GetIn',
                 shouldClose = true
             }, {
                 id = 'cornerselling',
-                title = 'Corner Selling',
+                title = '薬？販売',
                 icon = 'cannabis',
                 type = 'client',
                 event = 'qb-drugs:client:cornerselling',
                 shouldClose = true
             }, {
                 id = 'togglehotdogsell',
-                title = 'Hotdog Selling',
+                title = 'ホットドック販売',
                 icon = 'hotdog',
                 type = 'client',
                 event = 'qb-hotdogjob:client:ToggleSell',
                 shouldClose = true
             }, {
                 id = 'interactions',
-                title = 'Interaction',
+                title = '相互作用',
                 icon = 'triangle-exclamation',
                 items = {
                     {
                         id = 'handcuff',
-                        title = 'Cuff',
+                        title = '連行する',
                         icon = 'user-lock',
                         type = 'client',
                         event = 'police:client:CuffPlayerSoft',
                         shouldClose = true
                     }, {
                         id = 'playerinvehicle',
-                        title = 'Put In Vehicle',
+                        title = '車両に乗せる',
                         icon = 'car-side',
                         type = 'client',
                         event = 'police:client:PutPlayerInVehicle',
                         shouldClose = true
                     }, {
                         id = 'playeroutvehicle',
-                        title = 'Take Out Of Vehicle',
+                        title = '車両から出す',
                         icon = 'car-side',
                         type = 'client',
                         event = 'police:client:SetPlayerOutVehicle',
                         shouldClose = true
                     }, {
                         id = 'stealplayer',
-                        title = 'Rob',
+                        title = '盗む',
                         icon = 'mask',
                         type = 'client',
                         event = 'police:client:RobPlayer',
                         shouldClose = true
                     }, {
                         id = 'escort',
-                        title = 'Kidnap',
+                        title = '誘拐',
                         icon = 'user-group',
                         type = 'client',
                         event = 'police:client:KidnapPlayer',
                         shouldClose = true
                     }, {
                         id = 'escort2',
-                        title = 'Escort',
+                        title = 'エスコート',
                         icon = 'user-group',
                         type = 'client',
                         event = 'police:client:EscortPlayer',
                         shouldClose = true
                     }, {
                         id = 'escort554',
-                        title = 'Hostage',
+                        title = '人質',
                         icon = 'child',
                         type = 'client',
                         event = 'A5:Client:TakeHostage',
@@ -105,59 +105,59 @@ Config.MenuItems = {
         items = {
             {
                 id = 'house',
-                title = 'House Interaction',
+                title = 'ハウジング',
                 icon = 'house',
                 items = {
                     {
                         id = 'givehousekey',
-                        title = 'Give House Keys',
+                        title = '家の鍵を渡す',
                         icon = 'key',
                         type = 'client',
                         event = 'qb-houses:client:giveHouseKey',
                         shouldClose = true
                     }, {
                         id = 'removehousekey',
-                        title = 'Remove House Keys',
+                        title = '家の鍵を取る',
                         icon = 'key',
                         type = 'client',
                         event = 'qb-houses:client:removeHouseKey',
                         shouldClose = true
                     }, {
                         id = 'togglelock',
-                        title = 'Toggle Doorlock',
+                        title = 'ドアロック切り替え',
                         icon = 'door-closed',
                         type = 'client',
                         event = 'qb-houses:client:toggleDoorlock',
                         shouldClose = true
                     }, {
                         id = 'decoratehouse',
-                        title = 'Decorate House',
+                        title = '家の装飾',
                         icon = 'box',
                         type = 'client',
                         event = 'qb-houses:client:decorate',
                         shouldClose = true
                     }, {
                         id = 'houseLocations',
-                        title = 'Interaction Locations',
+                        title = '家での相互作用',
                         icon = 'house',
                         items = {
                             {
                                 id = 'setstash',
-                                title = 'Set Stash',
+                                title = '隠し場所の設定',
                                 icon = 'box-open',
                                 type = 'client',
                                 event = 'qb-houses:client:setLocation',
                                 shouldClose = true
                             }, {
                                 id = 'setoutift',
-                                title = 'Set Wardrobe',
+                                title = 'クローゼットの設定',
                                 icon = 'shirt',
                                 type = 'client',
                                 event = 'qb-houses:client:setLocation',
                                 shouldClose = true
                             }, {
                                 id = 'setlogout',
-                                title = 'Set Logout',
+                                title = 'ログアウトの設定？',
                                 icon = 'door-open',
                                 type = 'client',
                                 event = 'qb-houses:client:setLocation',
@@ -168,122 +168,122 @@ Config.MenuItems = {
                 }
             }, {
                 id = 'clothesmenu',
-                title = 'Clothing',
+                title = '服装',
                 icon = 'shirt',
                 items = {
                     {
                         id = 'Hair',
-                        title = 'Hair',
+                        title = '髪型',
                         icon = 'user',
                         type = 'client',
                         event = 'qb-radialmenu:ToggleClothing',
                         shouldClose = true
                     }, {
                         id = 'Ear',
-                        title = 'Ear Piece',
+                        title = '耳',
                         icon = 'ear-deaf',
                         type = 'client',
                         event = 'qb-radialmenu:ToggleProps',
                         shouldClose = true
                     }, {
                         id = 'Neck',
-                        title = 'Neck',
+                        title = '首',
                         icon = 'user-tie',
                         type = 'client',
                         event = 'qb-radialmenu:ToggleClothing',
                         shouldClose = true
                     }, {
                         id = 'Top',
-                        title = 'Top',
+                        title = 'トップス',
                         icon = 'shirt',
                         type = 'client',
                         event = 'qb-radialmenu:ToggleClothing',
                         shouldClose = true
                     }, {
                         id = 'Shirt',
-                        title = 'Shirt',
+                        title = 'シャツ',
                         icon = 'shirt',
                         type = 'client',
                         event = 'qb-radialmenu:ToggleClothing',
                         shouldClose = true
                     }, {
                         id = 'Pants',
-                        title = 'Pants',
+                        title = 'パンツ',
                         icon = 'user',
                         type = 'client',
                         event = 'qb-radialmenu:ToggleClothing',
                         shouldClose = true
                     }, {
                         id = 'Shoes',
-                        title = 'Shoes',
+                        title = '靴',
                         icon = 'shoe-prints',
                         type = 'client',
                         event = 'qb-radialmenu:ToggleClothing',
                         shouldClose = true
                     }, {
                         id = 'meer',
-                        title = 'Extras',
+                        title = 'その他',
                         icon = 'plus',
                         items = {
                             {
                                 id = 'Hat',
-                                title = 'Hat',
+                                title = 'ハット',
                                 icon = 'hat-cowboy-side',
                                 type = 'client',
                                 event = 'qb-radialmenu:ToggleProps',
                                 shouldClose = true
                             }, {
                                 id = 'Glasses',
-                                title = 'Glasses',
+                                title = 'メガネ',
                                 icon = 'glasses',
                                 type = 'client',
                                 event = 'qb-radialmenu:ToggleProps',
                                 shouldClose = true
                             }, {
                                 id = 'Visor',
-                                title = 'Visor',
+                                title = 'バイザー',
                                 icon = 'hat-cowboy-side',
                                 type = 'client',
                                 event = 'qb-radialmenu:ToggleProps',
                                 shouldClose = true
                             }, {
                                 id = 'Mask',
-                                title = 'Mask',
+                                title = 'マスク',
                                 icon = 'masks-theater',
                                 type = 'client',
                                 event = 'qb-radialmenu:ToggleClothing',
                                 shouldClose = true
                             }, {
                                 id = 'Vest',
-                                title = 'Vest',
+                                title = 'ベスト',
                                 icon = 'vest',
                                 type = 'client',
                                 event = 'qb-radialmenu:ToggleClothing',
                                 shouldClose = true
                             }, {
                                 id = 'Bag',
-                                title = 'Bag',
+                                title = 'バッグ',
                                 icon = 'bag-shopping',
                                 type = 'client',
                                 event = 'qb-radialmenu:ToggleClothing',
                                 shouldClose = true
                             }, {
                                 id = 'Bracelet',
-                                title = 'Bracelet',
+                                title = 'ブレスレット',
                                 icon = 'user',
                                 type = 'client',
                                 event = 'qb-radialmenu:ToggleProps',
                                 shouldClose = true
                             }, {
                                 id = 'Watch',
-                                title = 'Watch',
+                                title = '時計',
                                 icon = 'stopwatch',
                                 type = 'client',
                                 event = 'qb-radialmenu:ToggleProps',
                                 shouldClose = true
                             }, {
                                 id = 'Gloves',
-                                title = 'Gloves',
+                                title = '手袋',
                                 icon = 'mitten',
                                 type = 'client',
                                 event = 'qb-radialmenu:ToggleClothing',
@@ -299,47 +299,47 @@ Config.MenuItems = {
 
 Config.VehicleDoors = {
     id = 'vehicledoors',
-    title = 'Vehicle Doors',
+    title = '車両ドア',
     icon = 'car-side',
     items = {
         {
             id = 'door0',
-            title = 'Drivers door',
+            title = '運転席ドア',
             icon = 'car-side',
             type = 'client',
             event = 'qb-radialmenu:client:openDoor',
             shouldClose = false
         }, {
             id = 'door4',
-            title = 'Hood',
+            title = 'フード',
             icon = 'car',
             type = 'client',
             event = 'qb-radialmenu:client:openDoor',
             shouldClose = false
         }, {
             id = 'door1',
-            title = 'Passengers door',
+            title = '助手席ドア',
             icon = 'car-side',
             type = 'client',
             event = 'qb-radialmenu:client:openDoor',
             shouldClose = false
         }, {
             id = 'door3',
-            title = 'Right rear',
+            title = '右後部ドア',
             icon = 'car-side',
             type = 'client',
             event = 'qb-radialmenu:client:openDoor',
             shouldClose = false
         }, {
             id = 'door5',
-            title = 'Trunk',
+            title = 'トランク',
             icon = 'car',
             type = 'client',
             event = 'qb-radialmenu:client:openDoor',
             shouldClose = false
         }, {
             id = 'door2',
-            title = 'Left rear',
+            title = '左後部ドア',
             icon = 'car-side',
             type = 'client',
             event = 'qb-radialmenu:client:openDoor',
@@ -350,7 +350,7 @@ Config.VehicleDoors = {
 
 Config.VehicleExtras = {
     id = 'vehicleextras',
-    title = 'Vehicle Extras',
+    title = '車両の追加装備',
     icon = 'plus',
     items = {
         {
@@ -450,7 +450,7 @@ Config.VehicleExtras = {
 
 Config.VehicleSeats = {
     id = 'vehicleseats',
-    title = 'Vehicle Seats',
+    title = '車両のシート',
     icon = 'chair',
     items = {}
 }
@@ -459,54 +459,54 @@ Config.JobInteractions = {
     ["ambulance"] = {
         {
             id = 'statuscheck',
-            title = 'Check Health Status',
+            title = 'ヘルスチェック',
             icon = 'heart-pulse',
             type = 'client',
             event = 'hospital:client:CheckStatus',
             shouldClose = true
         },{
             id = 'revivep',
-            title = 'Revive',
+            title = '蘇生',
             icon = 'user-doctor',
             type = 'client',
             event = 'hospital:client:RevivePlayer',
             shouldClose = true
         },{
             id = 'treatwounds',
-            title = 'Heal wounds',
+            title = '傷の治療',
             icon = 'bandage',
             type = 'client',
             event = 'hospital:client:TreatWounds',
             shouldClose = true
         }, {
             id = 'emergencybutton2',
-            title = 'Emergency button',
+            title = '救急要請',
             icon = 'bell',
             type = 'client',
             event = 'police:client:SendPoliceEmergencyAlert',
             shouldClose = true
         }, {
             id = 'escort',
-            title = 'Escort',
+            title = 'エスコート',
             icon = 'user-group',
             type = 'client',
             event = 'police:client:EscortPlayer',
             shouldClose = true
         }, {
             id = 'stretcheroptions',
-            title = 'Stretcher',
+            title = 'ストレッチャー',
             icon = 'bed-pulse',
             items = {
                 {
                     id = 'spawnstretcher',
-                    title = 'Spawn Stretcher',
+                    title = 'ストレッチャーを取り出す',
                     icon = 'plus',
                     type = 'client',
                     event = 'qb-radialmenu:client:TakeStretcher',
                     shouldClose = false
                 }, {
                     id = 'despawnstretcher',
-                    title = 'Remove Stretcher',
+                    title = 'ストレッチャーをしまう',
                     icon = 'minus',
                     type = 'client',
                     event = 'qb-radialmenu:client:RemoveStretcher',
@@ -518,21 +518,21 @@ Config.JobInteractions = {
     ["taxi"] = {
         {
             id = 'togglemeter',
-            title = 'Show/Hide Meter',
+            title = 'メーターの表示/非表示',
             icon = 'eye-slash',
             type = 'client',
             event = 'qb-taxi:client:toggleMeter',
             shouldClose = false
         }, {
             id = 'togglemouse',
-            title = 'Start/Stop Meter',
+            title = 'メーター スタート/ストップ',
             icon = 'hourglass-start',
             type = 'client',
             event = 'qb-taxi:client:enableMeter',
             shouldClose = true
         }, {
             id = 'npc_mission',
-            title = 'NPC Mission',
+            title = 'NPC ミッション',
             icon = 'taxi',
             type = 'client',
             event = 'qb-taxi:client:DoTaxiNpc',
@@ -542,14 +542,14 @@ Config.JobInteractions = {
     ["tow"] = {
         {
             id = 'togglenpc',
-            title = 'Toggle NPC',
+            title = 'NPCの切り替え',
             icon = 'toggle-on',
             type = 'client',
             event = 'jobs:client:ToggleNpc',
             shouldClose = true
         }, {
             id = 'towvehicle',
-            title = 'Tow vehicle',
+            title = '牽引',
             icon = 'truck-pickup',
             type = 'client',
             event = 'qb-tow:client:TowVehicle',
@@ -559,7 +559,7 @@ Config.JobInteractions = {
     ["mechanic"] = {
         {
             id = 'towvehicle',
-            title = 'Tow vehicle',
+            title = '牽引',
             icon = 'truck-pickup',
             type = 'client',
             event = 'qb-tow:client:TowVehicle',
@@ -569,28 +569,28 @@ Config.JobInteractions = {
     ["police"] = {
         {
             id = 'emergencybutton',
-            title = 'Emergency button',
+            title = '通報',
             icon = 'bell',
             type = 'client',
             event = 'police:client:SendPoliceEmergencyAlert',
             shouldClose = true
         }, {
             id = 'checkvehstatus',
-            title = 'Check Tune Status',
+            title = '車両改造チェック',
             icon = 'circle-info',
             type = 'client',
             event = 'qb-tunerchip:client:TuneStatus',
             shouldClose = true
         }, {
             id = 'resethouse',
-            title = 'Reset house lock',
+            title = '家の鍵開錠',
             icon = 'key',
             type = 'client',
             event = 'qb-houses:client:ResetHouse',
             shouldClose = true
         }, {
             id = 'takedriverlicense',
-            title = 'Revoke Drivers License',
+            title = '運転免許の取り消し',
             icon = 'id-card',
             type = 'client',
             event = 'police:client:SeizeDriverLicense',
@@ -602,35 +602,35 @@ Config.JobInteractions = {
             items = {
                 {
                     id = 'statuscheck',
-                    title = 'Check Health Status',
+                    title = 'ヘルスチェック',
                     icon = 'heart-pulse',
                     type = 'client',
                     event = 'hospital:client:CheckStatus',
                     shouldClose = true
                 }, {
                     id = 'checkstatus',
-                    title = 'Check status',
+                    title = 'ステータスチェック',
                     icon = 'question',
                     type = 'client',
                     event = 'police:client:CheckStatus',
                     shouldClose = true
                 }, {
                     id = 'escort',
-                    title = 'Escort',
+                    title = 'エスコート',
                     icon = 'user-group',
                     type = 'client',
                     event = 'police:client:EscortPlayer',
                     shouldClose = true
                 }, {
                     id = 'searchplayer',
-                    title = 'Search',
+                    title = 'プレイヤーを探す',
                     icon = 'magnifying-glass',
                     type = 'client',
                     event = 'police:client:SearchPlayer',
                     shouldClose = true
                 }, {
                     id = 'jailplayer',
-                    title = 'Jail',
+                    title = 'プレイヤーを投獄',
                     icon = 'user-lock',
                     type = 'client',
                     event = 'police:client:JailPlayer',
@@ -639,54 +639,54 @@ Config.JobInteractions = {
             }
         }, {
             id = 'policeobjects',
-            title = 'Objects',
+            title = 'オブジェクト',
             icon = 'road',
             items = {
                 {
                     id = 'spawnpion',
-                    title = 'Cone',
+                    title = 'コーン',
                     icon = 'triangle-exclamation',
                     type = 'client',
                     event = 'police:client:spawnCone',
                     shouldClose = false
                 }, {
                     id = 'spawnhek',
-                    title = 'Gate',
+                    title = 'ゲート',
                     icon = 'torii-gate',
                     type = 'client',
                     event = 'police:client:spawnBarrier',
                     shouldClose = false
                 }, {
                     id = 'spawnschotten',
-                    title = 'Speed Limit Sign',
+                    title = '速度制限標識',
                     icon = 'sign-hanging',
                     type = 'client',
                     event = 'police:client:spawnRoadSign',
                     shouldClose = false
                 }, {
                     id = 'spawntent',
-                    title = 'Tent',
+                    title = 'テント',
                     icon = 'campground',
                     type = 'client',
                     event = 'police:client:spawnTent',
                     shouldClose = false
                 }, {
                     id = 'spawnverlichting',
-                    title = 'Lighting',
+                    title = '点灯',
                     icon = 'lightbulb',
                     type = 'client',
                     event = 'police:client:spawnLight',
                     shouldClose = false
                 }, {
                     id = 'spikestrip',
-                    title = 'Spike Strips',
+                    title = 'スパイクストリップ',
                     icon = 'caret-up',
                     type = 'client',
                     event = 'police:client:SpawnSpikeStrip',
                     shouldClose = false
                 }, {
                     id = 'deleteobject',
-                    title = 'Remove object',
+                    title = 'オブジェクトの削除',
                     icon = 'trash',
                     type = 'client',
                     event = 'police:client:deleteObject',
@@ -698,7 +698,7 @@ Config.JobInteractions = {
     ["hotdog"] = {
         {
             id = 'togglesell',
-            title = 'Toggle sell',
+            title = '販売の切り替え',
             icon = 'hotdog',
             type = 'client',
             event = 'qb-hotdogjob:client:ToggleSell',
